@@ -1,30 +1,27 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
+<!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CECyTEM Plantel Valle de Bravo</title>
+<title>CECyMagic Valle de Bravo</title>
+     <link rel="icon" href="LOGOVALLE.jpeg" type="image/jpg">
+
 
 <!-- Bootstrap -->
-<link rel="icon" href="LOGOTIK.jpeg" type="image/jpeg">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <!-- Iconos Bootstrap -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
 <style>
 body{
     background:#f4f6f9;
 }
 .carousel-item img {
     width: 600%;
-    height: 480px;
-    object-fit: contain;
+    height: 480px; /* Cambia este valor para hacerlas más grandes o pequeñas */
+    object-fit: contain; /* Muestra la imagen completa sin recortarla */
 }
 
 
 
 
+    
 /* NAVBAR */
 .navbar{
     box-shadow:0 3px 10px rgba(0,0,0,.3);
@@ -58,7 +55,7 @@ body{
 .hero {
     background:
         linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-        url("ÑIÑI.jpeg");
+        url("LOGOVALLE.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -106,7 +103,7 @@ color:white;
         <!-- LOGO Y NOMBRE -->
         <a class="navbar-brand fw-bold" href="#">
             <i class="bi bi-mortarboard-fill"></i>
-            CECyTEM VALLE DE BRAVO
+            VALLE DE BRAVO
         </a>
 
         <!-- BOTON PARA CELULAR -->
@@ -123,178 +120,146 @@ color:white;
 
             <ul class="navbar-nav ms-auto">
 
+            <!--HSTORIA-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Historia
+                </a>
 
-                <li class="nav-item dropdown">
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Historia de Valle de Bravo
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
+            <!--CULTURA-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Cultura
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                               Artesanias(mimi)
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
-                        HISTORIA
 
-                    </a>
+             <!--TRADICIONES-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Tradiciones
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                          Tradiciones de Valle de Bravo
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+             <!--Gastronomia-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Gastronomia
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Platillos tipicos
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+             <!--PATRIMONIO-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Patrimonio
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Museo de Arte (brisa)
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+             <!--FESTIVIDADES-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Festividades
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Fiesta y celebracion
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+             <!--SITICOS TURISTICOS-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown">
+                    Sitos Turisticos
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Rutas Ecoturisricas(pame)
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+               
 
                     <ul class="dropdown-menu">
 
                         <li>
-                            <a class="dropdown-item"
-                               href="#"
-                               target="_blank">
-
-                               Historia de Valle de Bravo
-
+                            <a class="dropdown-item" href="#">
+                                Programación
                             </a>
                         </li>
-
-                      
-
                     </ul>
-
                 </li>
-
-                <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        CULTURA
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item" href="index6.html">
-                                Artesanias
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                 <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        TRADICIONES
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item" href="Index4">
-                                  Tradiciones de Valle de Bravo
-                            <a class="dropdown-item"
-                               href="#"
-                               target="_blank">
-
-                               Tradiciones de Valle de Bravo
-
-                            </a>
-                        </li>
-                    </ul>
-                 </li>
-
-                         <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        GASTRONOMIA
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="Gastronomia.html"
-                               target="_blank">
-
-                               Platillos tipicos
-
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                         <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="Gastronomia.html"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        PATRIMONIO
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="https://cecytem.edomex.gob.mx/"
-                               target="_blank">
-
-                               Museo de artes
-
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                         <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="index6.html"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        FESTIVIDADES
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="https://cecytem.edomex.gob.mx/"
-                               target="_blank">
-
-                               Fiestas y celebraciones
-
-                            </a>
-                        </li>
-                   </ul>
-                    <li class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                       href="#"
-                       role="button"
-                       data-bs-toggle="dropdown">
-
-                        SITIOS TURISTICOS
-
-                    </a>
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a class="dropdown-item"
-                               href="https://cecytem.edomex.gob.mx/"
-                               target="_blank">
-
-                               Ruta ecoturisticas
-
-                            </a>
-                        </li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -304,15 +269,15 @@ color:white;
 <span>
 📢 B i e n v e n i d o s 
 &nbsp;&nbsp;&nbsp;
-🌐 Nuevo portal.
+🌐 Publo Magico.
 </span> </div>
 
     <!-- PORTADA -->
-<section class="hero"> <div class="container hero-content"><h1 class="display-4 fw-bold"> CECyTEM <p>PLANTEL VALLE DE BRAVO </h1>
+<section class="hero"> <div class="container hero-content"><h1 class="display-4 fw-bold"> PUEBLO MAGICO <p> VALLE DE BRAVO </h1>
    <div class="text-center">
 
   <p class="lead"> Educación Media Superior </p>
-<a href="#" class="btn btn-warning btn-lg"> #SomosLeopardos </a> </div> </section>
+<a href="#" class="btn btn-warning btn-lg"> #SomosValle </a> </div> </section>
     
 <!-- CARRUSEL  IMAGENES...............................................................-->
 
@@ -326,28 +291,28 @@ color:white;
  <!-- IMAGEN 1 -->
        
 <div class="carousel-item active">
-    <img src="noe.jpeg"
+    <img src="https://raw.githubusercontent.com/cecytemvalledebravo/CECyTEM-VALLE-DE-BRAVO-/main/imagen1.jpeg"
          class="d-block w-100"
          alt="Actividades deportivas CECyTEM">
 </div>
 
 <!-- IMAGEN 2 -->
 <div class="carousel-item">
-    <img src="casimiro.jpeg"
+    <img src="https://raw.githubusercontent.com/cecytemvalledebravo/CECyTEM-VALLE-DE-BRAVO-/main/imagen2.jpeg"
          class="d-block w-100"
          alt="Actividades deportivas CECyTEM">
 </div>
 
 <!-- IMAGEN 3 -->
 <div class="carousel-item">
-    <img src="iglesia .jpeg"
+    <img src="https://raw.githubusercontent.com/cecytemvalledebravo/CECyTEM-VALLE-DE-BRAVO-/main/imagen3.jpeg"
          class="d-block w-100"
          alt="Actividades deportivas CECyTEM">
 </div>
 
         <!-- IMAGEN 2 -->
 <div class="carousel-item">
-    <img src="123.jpeg"
+    <img src="https://raw.githubusercontent.com/cecytemvalledebravo/CECyTEM-VALLE-DE-BRAVO-/main/humo1.jpeg"
          class="d-block w-100"
          alt="Actividades deportivas CECyTEM">
 </div>
@@ -371,10 +336,9 @@ color:white;
             data-bs-target="#slider"
             data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
-</button>
- 
-</div>
+    </button>
 
+</div>
 <!-- TARJETAS PRINCIPALES -->
 <div class="container mt-5">
     <div class="row g-4 align-items-stretch">
