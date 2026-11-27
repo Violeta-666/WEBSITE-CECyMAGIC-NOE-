@@ -21,7 +21,19 @@ body{
     object-fit: contain; /* Muestra la imagen completa sin recortarla */
 }
 
+.tarjeta-fondo {
+    background-image: url("fotosanasis.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 15px;
+}
 
+.tarjeta-fondo .card-body {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+}
 
 
     
@@ -362,7 +374,8 @@ color:white;
 
 <!-- CULTURA DIGITAL -->
 <div class="col-12 col-md-4">
-    <div class="card shadow h-100">
+    <div class="card shadow h-100
+           tarjeta-fondo">
         <div class="card-body text-center d-flex flex-column">
 
             
